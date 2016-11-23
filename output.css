@@ -87,12 +87,18 @@ h2 {
 
 .foot {
   display: inline-block;
-  justify-content: space-between;
+  justify-content: space-around;
   max-width: 65%;
-  margin: 50px auto 0 auto; }
+  margin: 50px auto 0 auto; 
+  margin-left: 120px;
+  margin-right: 120px;
+}
 
-.footInpu {
-  display: column; }
+.footInput {
+  display: block; 
+  height: 20px;
+
+}
 
 .divEspace {
   height: 5em; }
