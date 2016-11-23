@@ -128,11 +128,15 @@ margin:50px auto 0 auto;
 	justify-content:space-around;
     max-width:65%;
     margin:50px auto 0 auto;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin:30px auto;
 
 }
 
-.footInpu{
-	display:column;
+.footInput{
+	display:block;
+
 
 }
 
@@ -141,7 +145,23 @@ margin:50px auto 0 auto;
 	height:5em;
 }
 
-.footer{
-	border:1px solid grey;
+li{
+	list-style: none;
+}
 
+.footer{
+	border-top:1px solid grey;
+	display:flex;list-style: none;
+
+
+}
+
+.footerDeux{
+	border-top:1px solid grey;
+}
+
+.h3Div{
+	display:inline-block;
+	margin-right:230px;
+	margin-left:230px;
 }
