@@ -103,7 +103,9 @@ h2 {
   margin: 30px auto; }
 
 .footInput {
-  display: block; }
+  display: block;
+  width: 150px;
+  height: 40px; }
 
 .divEspace {
   height: 5em; }
@@ -117,11 +119,16 @@ li {
   list-style: none; }
 
 .footerDeux {
-  border-top: 1px solid grey; }
+  border-top: 1px solid grey;
+  margin-right: 200px;
+  margin-left: 200px; }
 
 .h3Div {
   display: inline-block;
-  margin-right: 230px;
-  margin-left: 230px; }
+  float: left; }
+
+.h3DivDeux {
+  display: inline-block;
+  float: right; }
 
 /*# sourceMappingURL=output.css.map */

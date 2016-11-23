@@ -94,6 +94,7 @@ p{
     display:flex;
     justify-content: space-around;
 
+
    
 	
 }
@@ -145,7 +146,8 @@ margin:50px auto 0 auto;
 
 .footInput{
 	display:block;
-
+    width:150px;
+	height:40px;
 
 }
 
@@ -167,10 +169,17 @@ li{
 
 .footerDeux{
 	border-top:1px solid grey;
+	margin-right:200px;
+	margin-left:200px;
 }
 
 .h3Div{
 	display:inline-block;
-	margin-right:230px;
-	margin-left:230px;
+	float:left;
+	
+}
+
+.h3DivDeux{
+	display:inline-block;
+    float:right;
 }
