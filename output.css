@@ -23,13 +23,13 @@ button {
   border: 0.1em solid grey;
   box-shadow: 0.05em 0.05em 0 0 grey;
   margin: -1em;
-  margin-right: 1em; }
+  margin-right: 0.1em;
+  background-color: white; }
 
 .inpWidth {
   border: 1px solid grey;
   width: 1000px;
   height: 70px;
-  margin: -30px;
   border: 1px solid grey;
   box-shadow: 0.5px 0.5px 0 0 grey;
   margin: -10px; }
@@ -55,28 +55,16 @@ button {
   margin-left: 1em; }
 
 @media screen and (min-device-width: 601px) {
-  .menu {
-    display: flex;
-    float: right;
-    border: 1em solid opacity;
-    width: 150em;
-    position: fixed;
-    margin: -1em;
-    margin-left: 1em; }
-
   .menuDeroulant {
     visibility: hidden; } }
 @media screen and (min-device-width: 301px) and (max-device-width: 600px) {
-  .inpWidth {
-    visibility: hidden; }
-
-  .menuEnfant {
+  .menu {
     visibility: hidden; } }
 @media screen and (max-device-width: 300px) {
-  .inpWidth {
+  .menu {
     visibility: hidden; }
 
-  .menuEnfant {
+  img {
     visibility: hidden; } }
 h2 {
   color: white; }
